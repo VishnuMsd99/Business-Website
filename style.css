@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.nav-items {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    color: rgb(50, 44, 44);
+    display: inline-block;
+}
+
+.nav-item a {
+    color: rgb(50, 44, 44);
+    display: inline-block;
+}
+
+.nav-items p {
+    position: relative;
+    top: .5rem;
+}
+
+.nav-items span {
+    position: relative;
+    color: rgb(218, 15, 15);
+    font-weight: 600;
+}
+
+.home-icon a img {
+    position: relative;
+    width: 20px;
+}
+
+.home-icon span {
+    position: absolute;
+    top: 0rem;
+    color: black;
+}
+
+.cart {
+    margin-left: 1rem;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.info {
+    padding: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+}
+
+.info h5 {
+    left: 0;
+    margin: 1rem;
+}
+
+.icons {
+    display: flex;
+    margin: 1rem;
+    left: 0;
+}
+
+.icons a img {
+    width: 20px;
+    margin: 0 1rem;
+}
+
+.info :nth-child(3) {
+    color: red;
+    height: 2rem;
+    width: 6rem;
+    box-sizing: border-box;
+    background-color: rgb(204, 206, 212);
+}
+
+.tables {
+    margin-top: 1rem;
+    color: red;
+}
+
+.tables td {
+    color: red;
+    font-weight: 500;
+}
+
+.buttons {
+    width: 100%;
+    height: 20vh;
+    border: 1px solid rgb(91, 89, 89);
+}
+
+.buttons button {
+
+    padding: 1px;
+    margin: 1rem 1rem 0 37px;
+    align-items: center;
+    border: solid 1px black;
+    width: 8rem;
+
+}
+
+.close-btn {
+    float: right;
+    margin-top: -2.9rem;
+
+}
+
+button span {
+    margin-left: 0.7rem;
+}
+
+.checkboxes {
+    width: 30vh;
+    display: inline-block;
+}
+
+.contents {
+    left: 0;
+    right: 0;
+    margin-top: 2rem;
+    width: 100%;
+    padding-left: 5%;
+    border: rgb(43, 38, 38) solid 1px;
+}
+.drop{
+    float: right;
+    border: 5px solid black;
+    margin-bottom: 3rem;
+}
+
+.contents img {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 1rem;
+}
+
+.bottom-buttons {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.bottom-buttons button {
+    background-color: #ffffff;
+    margin: 0;
+    width: 3rem;
+    height: 2rem;
+}
+
+footer {
+    margin-top: 1rem;
+    background-color: rgb(43, 38, 38);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.footer-top p {
+
+    color: white;
+    font-weight: 600;
+}
+
+.footer-top-2 {
+    font-size: .5rem;
+}
+
+.footer-top input {
+    width: 17rem;
+    height: 2.4rem;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 0.5rem;
+    align-items: center;
+    border: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    color: #ffffff;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-bottom ul li {
+    list-style: none;
+    margin: .5rem;
+}
+
+.footer-bottom h4 {
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+footer h5 {
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+@media (max-width: 1230px) {
+    .tables {
+        display: none;
+    }
+
+    .checkboxes {
+        display: none;
+    }
+}
